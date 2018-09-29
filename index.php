@@ -15,11 +15,15 @@ if($method == 'POST'){
 			break;
 
 		case ["bye"]:
-			$speech = "Bye, good night";
+			$speech = ["Bye, good night"];
 			break;
 
 		case ["anything"]:
 			$speech = "Yes, you can type anything here.";
+			break;
+			
+		case ["shabari"]:
+			$speech = "Yes, He is Great";
 			break;
 		
 		default:
